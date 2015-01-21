@@ -2,26 +2,21 @@
 <!-- This is the HTML for the MotivateMe project. -->
 <html>
   <head>
-
-
-
+    <link rel="stylesheet" href="lib/sweet-alert.css" charset="utf-8">
   </head>
-
   <body onload = "onBodyLoad()">
 <h1>
-  Hello World!
+  Fucking Motivate Me
 </h1>
+<h2>
+  <div id = "quote"> </div>
+</h2>
+<div id = "oHigh" onclick ="happyClick()"></div>
 
-<div id = "quote"> </div>
-<div id = "oHigh"> </div>
-<div id = "oMed"> </div>
+<div id = "oMed" onclick='nextQuote()'> </div>
 <div id = "oLow"> </div>
-
-
-
-
-
     <script src="main.js" type="text/javascript"></script>
+    <script src="lib/sweet-alert.js" type = "text/javascript"></script>
   </body>
 
 
