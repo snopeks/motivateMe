@@ -1,0 +1,19 @@
+{
+  "name": "motivateMe",
+  "version": "1.0.0",
+  "description": "motivational humor website",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/snopeks/motivateMe.git"
+  },
+  "author": "Stephanie Snopek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snopeks/motivateMe/issues"
+  },
+  "homepage": "https://github.com/snopeks/motivateMe"
+}

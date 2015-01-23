@@ -1,0 +1,78 @@
+/*this is the css for Motivate Me*/
+
+h1{
+  font-family: 'Syncopate', sans-serif;
+  font-size: 40px;
+  color: white;
+  margin: 0px;
+}
+.top-bar{
+  background-color: black;
+  padding: 10px 10px 10px 10px;
+
+}
+h2{
+
+  font-size: 30px;
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding:0px 10px 10px 10px;
+}
+.sweet-alert h2{
+  text-align: center;
+  width: inherit;
+
+}
+
+#quote{
+  font-family: 'Quicksand', sans-serif;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  color: black;
+}
+
+h3{
+  font-family: "Electrolize", sans-serif;
+  font-size: 20px;
+  width: 300px;
+  align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+p{
+  color: white;
+  font-family: "Electrolize", sans-serif;
+  font-size: medium;
+  font-style: italic;
+  margin: 0px;
+
+}
+body{
+  align: center;
+  background-color: white;
+  margin: 0px;
+
+}
+
+#oHigh{
+  padding:10px 10px 10px 10px;
+  color: black;
+  text-align: center;
+}
+
+#oMed{
+  padding:10px 10px 10px 10px;
+  color: black;
+  text-align: center;
+}
+
+#oLow{
+  padding:10px 10px 10px 10px;
+  color: black;
+  text-align: center;
+
+}
