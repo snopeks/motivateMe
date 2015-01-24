@@ -45,7 +45,7 @@ function happyClick () {
 }
 
 function sadClick(){
-  swal('Hey, we all have bad days. You are gonna be ok!')
+  swal('Hey, we all have bad days. Maybe you could work on a passion project?')
 
   return nextQuote()
 }

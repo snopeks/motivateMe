@@ -11,10 +11,20 @@ h1{
   padding: 10px 10px 10px 10px;
 
 }
+
+.footer {
+  background-color: black;
+  position: inherit;
+  width: auto;
+  text-align: left;
+  padding: 10px;
+
+
+}
 h2{
 
-  font-size: 30px;
-  width: 600px;
+
+  width: 800px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -28,51 +38,64 @@ h2{
 
 #quote{
   font-family: 'Quicksand', sans-serif;
+  font-size: 30px;
   padding: 10px 10px 10px 10px;
   text-align: center;
   color: black;
 }
 
 h3{
-  font-family: "Electrolize", sans-serif;
+
   font-size: 20px;
-  width: 300px;
-  align: center;
+  width: 800px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   position: relative;
 }
+
+h4 {
+  font-size: medium;
+
+}
 p{
   color: white;
   font-family: "Electrolize", sans-serif;
-  font-size: medium;
+  font-size: 20px;
   font-style: italic;
   margin: 0px;
-
+  display: inline;
+  padding-right: 20px;
 }
+
 body{
   align: center;
   background-color: white;
   margin: 0px;
-
 }
 
 #oHigh{
+  font-family: "Electrolize", sans-serif;
   padding:10px 10px 10px 10px;
   color: black;
   text-align: center;
 }
 
 #oMed{
+  font-family: "Electrolize", sans-serif;
   padding:10px 10px 10px 10px;
   color: black;
   text-align: center;
 }
 
 #oLow{
+  font-family: "Electrolize", sans-serif;
   padding:10px 10px 10px 10px;
   color: black;
   text-align: center;
+}
+
+.quoteContainer {
+
 
 }
