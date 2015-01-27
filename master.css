@@ -14,23 +14,24 @@ h1{
 }
 
 #navbar{
-  float:right;
-  padding-bottom:20px;
-}
-h5{
   color: white;
   font-family: "Electrolize", sans-serif;
+  float:right;
+
+}
+h5{
   font-size: 20px;
   font-style: italic;
   margin: 0px;
   display: inline-block;
   padding-right: 20px;
+  position:relative;
 
 }
 #quote {
   font-family: 'Quicksand', sans-serif;
-  font-size: 50px;
-  padding: 10px 10px 10px 10px;
+  font-size: 70px;
+  padding: 10px 30px 10px 30px;
   text-align: center;
   color: black;
 }
@@ -97,24 +98,23 @@ body{
   #quote {
     font-family: 'Quicksand', sans-serif;
     font-size: 40px;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 30px 10px 30px;
     text-align: center;
     color: black;
   }
 
   #navbar{
-    position:fixed;
+  color: white;
+  font-family: "Electrolize", sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  width: 100%;
   }
 
   h5{
-    color: white;
-    font-family: "Electrolize", sans-serif;
     font-size: 10px;
-    font-style: italic;
-    margin: 0px;
-    display: inline-block;
-    padding-right: 10px;
-    align:left;
+    position: relative;
+    padding-right:10px;
 
   }
 
@@ -142,3 +142,12 @@ body{
     text-align: center;
   }
 }
+
+//color: white;
+font-family: "Electrolize", sans-serif;
+font-size: 10px;
+font-style: italic;
+margin: 0px;
+display: inline-block;
+padding-right: 20px;
+position: relative;

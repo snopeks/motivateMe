@@ -18,7 +18,7 @@ module.exports = [
     "oLow":"I don't know about that..."
   },
   {
-    "quote":"You are here to do GREAT THINGS!",
+    "quote":"You are fucking TALENTED!",
     "oHigh":"Yeah I am!",
     "oMed":"Give me more motivation plz",
     "oLow":"I don't believe you..."
