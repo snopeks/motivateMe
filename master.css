@@ -6,65 +6,42 @@ h1{
   color: white;
   margin: 0px;
 }
+
 .top-bar{
   background-color: black;
   padding: 10px 10px 10px 10px;
-
+  height:inherit;
 }
 
-.footer {
-  background-color: black;
-  position: inherit;
-  width: auto;
-  text-align: left;
-  padding: 10px;
-
+#navbar{
+  float:right;
+  padding-bottom:20px;
+}
+h5{
+  color: white;
+  font-family: "Electrolize", sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  margin: 0px;
+  display: inline-block;
+  padding-right: 20px;
 
 }
-h2{
-
-
-  width: 800px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding:0px 10px 10px 10px;
-}
-.sweet-alert h2{
-  text-align: center;
-  width: inherit;
-
-}
-
-#quote{
+#quote {
   font-family: 'Quicksand', sans-serif;
-  font-size: 30px;
+  font-size: 50px;
   padding: 10px 10px 10px 10px;
   text-align: center;
   color: black;
 }
 
-h3{
-
-  font-size: 20px;
-  width: 800px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-}
-
-h4 {
-  font-size: medium;
-
-}
 p{
   color: white;
   font-family: "Electrolize", sans-serif;
   font-size: 20px;
   font-style: italic;
   margin: 0px;
-  display: inline;
+  display: inline-block;
   padding-right: 20px;
 }
 
@@ -76,6 +53,7 @@ body{
 
 #oHigh{
   font-family: "Electrolize", sans-serif;
+  font-size: 30px;
   padding:10px 10px 10px 10px;
   color: black;
   text-align: center;
@@ -83,6 +61,7 @@ body{
 
 #oMed{
   font-family: "Electrolize", sans-serif;
+  font-size: 30px;
   padding:10px 10px 10px 10px;
   color: black;
   text-align: center;
@@ -90,12 +69,76 @@ body{
 
 #oLow{
   font-family: "Electrolize", sans-serif;
+  font-size: 30px;
   padding:10px 10px 10px 10px;
   color: black;
   text-align: center;
 }
 
 .quoteContainer {
+  margin-right:auto;
+  margin-left:auto;
+}
 
+@media (max-width: 500px){
+  .top-bar{
+    background-color: black;
+    padding: 10px 10px 10px 10px;
+    height:100px;
+  }
 
+  h1{
+    font-family: 'Syncopate', sans-serif;
+    font-size: 30px;
+    color: white;
+    margin: 0px;
+  }
+
+  #quote {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    color: black;
+  }
+
+  #navbar{
+    position:fixed;
+  }
+
+  h5{
+    color: white;
+    font-family: "Electrolize", sans-serif;
+    font-size: 10px;
+    font-style: italic;
+    margin: 0px;
+    display: inline-block;
+    padding-right: 10px;
+    align:left;
+
+  }
+
+  #oHigh{
+    font-family: "Electrolize", sans-serif;
+    font-size: 15px;
+    padding:10px 10px 10px 10px;
+    color: black;
+    text-align: center;
+  }
+
+  #oMed{
+    font-family: "Electrolize", sans-serif;
+    font-size: 15px;
+    padding:10px 10px 10px 10px;
+    color: black;
+    text-align: center;
+  }
+
+  #oLow{
+    font-family: "Electrolize", sans-serif;
+    font-size: 15px;
+    padding:10px 10px 10px 10px;
+    color: black;
+    text-align: center;
+  }
 }
