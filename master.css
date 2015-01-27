@@ -84,22 +84,24 @@ body{
   .top-bar{
     background-color: black;
     padding: 10px 10px 10px 10px;
-    height:100px;
+    height:50px;
   }
 
   h1{
     font-family: 'Syncopate', sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     color: white;
     margin: 0px;
   }
 
-  #quote {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 40px;
-    padding: 10px 10px 10px 10px;
-    text-align: center;
-    color: black;
+  p{
+    color: white;
+    font-family: "Electrolize", sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    margin: 0px;
+    display: inline-block;
+    padding-right: 20px;
   }
 
   #navbar{
@@ -115,8 +117,19 @@ body{
     display: inline-block;
     padding-right: 10px;
     align:left;
-
   }
+
+  #quote {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    color: black;
+  }
+
+
+
+
 
   #oHigh{
     font-family: "Electrolize", sans-serif;
