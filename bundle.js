@@ -40,13 +40,14 @@ function happyClick () {
 
   swal({
     title: "That's more LIKE it!",
-    text: "Now go do some fucking work",})
+    text: "Now go do some fucking work"})
 
 }
 
 function sadClick(){
-  swal('Maybe you could work on a passion project?')
-
+  swal({
+    title: "Aww, sad face.",
+    text: "Maybe you could work on a passion project?"})
   return nextQuote()
 }
 function onBodyLoad(){
