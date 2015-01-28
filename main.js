@@ -39,13 +39,12 @@ function happyClick () {
 
   swal({
     title: "That's more LIKE it!",
-    text: "Now go do some fucking work",
-    button: "hell yes",})
+    text: "Now go do some fucking work",})
 
 }
 
 function sadClick(){
-  swal('Hey, we all have bad days. Maybe you could work on a passion project?')
+  swal('Maybe you could work on a passion project?')
 
   return nextQuote()
 }
@@ -55,8 +54,3 @@ function onBodyLoad(){
 
 eventListeners();
 onBodyLoad();
-/*document.querySelector("#oHigh").onClick('swal({
-  title: "Error!",
-  text: "Here is my error message!",
-  type: "error",
-  confirmButtonText: "Cool"})')*/

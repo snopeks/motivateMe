@@ -17,8 +17,8 @@ h1{
   color: white;
   font-family: "Electrolize", sans-serif;
   float:right;
-
 }
+
 h5{
   font-size: 20px;
   font-style: italic;
@@ -26,8 +26,8 @@ h5{
   display: inline-block;
   padding-right: 20px;
   position:relative;
-
 }
+
 #quote {
   font-family: 'Quicksand', sans-serif;
   font-size: 70px;
@@ -115,7 +115,6 @@ body{
     font-size: 10px;
     position: relative;
     padding-right:10px;
-
   }
 
   #oHigh{
@@ -142,12 +141,3 @@ body{
     text-align: center;
   }
 }
-
-//color: white;
-font-family: "Electrolize", sans-serif;
-font-size: 10px;
-font-style: italic;
-margin: 0px;
-display: inline-block;
-padding-right: 20px;
-position: relative;
